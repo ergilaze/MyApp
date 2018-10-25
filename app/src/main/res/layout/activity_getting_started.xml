@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GettingStarted"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/text"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/getStarted"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_hover"
+        android:fontFamily="@font/cousine"
+        android:lineSpacingExtra="18sp"
+        android:text="Get Started"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="11dp"
+        android:text="@string/text_name"
+        android:textAllCaps="false"
+        android:textColor="@drawable/text_hover"
+        android:textSize="15sp"
+        app:fontFamily="@font/carrois_gothic" />
+
+
+</LinearLayout>
